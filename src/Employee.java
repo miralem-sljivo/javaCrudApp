@@ -38,7 +38,7 @@ public class Employee {
             try {
 
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employeescrud", "root", "ponijeri90");
+                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employeescrud", "root", "your password");
                 System.out.println("Successfully");
 
             }
